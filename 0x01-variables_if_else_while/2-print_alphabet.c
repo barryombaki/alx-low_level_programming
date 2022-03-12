@@ -5,16 +5,15 @@
  * Return: 0
  *
  */
-
 int main(void)
 {
-  char x[26] = "abcdefghijklmnopqrstuvwxyz";
-  int i;
-
-  for (i = 0; i < 26; i++)
-    {
-      putchar(x[i]);
-    }
-  putchar('\n');
-  return (0);
+      	char x[26] = "abcdefghijklmnopqrstuvwxyz";
+       	int i;
+       
+	for (i = 0; i < 26; i++)
+    	{
+	      	putchar(x[i]);
+       	}
+       	putchar('\n');
+      	return (0);
 }
