@@ -1,15 +1,20 @@
-// C program to demonstrate putchar() method
+#include "main.h"
 
-#include <stdio.h>
+/**
+ * main - print _putchar
+ *
+ * Return: 0
+ */
 
-int main()
+int main(void)
 {
+	int i;
+	char str[] = "_putchar";
 
-  // Get the character to be written
-  char ch = 'G';
-
-  // Write the Character to stdout
-  putchar(ch);
-
-  return (0);
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
