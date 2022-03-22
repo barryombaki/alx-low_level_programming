@@ -1,0 +1,6 @@
+
+C - Pointers,
+
+arrays
+
+strngs
